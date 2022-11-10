@@ -44,18 +44,21 @@ export default function WebPortfolio() {
           desc="Front-end development, user-interface design, firebase database, &
           stripe payments integration"
           credits="Engineered & designed // David Betancourt"
+          link="https://netflix-social.vercel.app/"
         />
         <Project
           title="FILM MAKER WEBSITE"
           img="/jared.png"
           desc="Front-end development, user-interface design, video edit, & social integration"
           credits="Developed & designed // David Betancourt"
+          link="https://jared-portfolio-rosy.vercel.app/"
         />
         <Project
           title="ROOFING HOME PAGE"
           img="/roofing.png"
           desc="Front-end development, user-interface design, video edit"
           credits="Developed & designed // David Betancourt"
+          link="https://roofing-sepia.vercel.app/"
         />
       </div>
     </section>

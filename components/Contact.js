@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { ImFacebook, ImTwitter } from "react-icons/im";
 import { RiInstagramFill } from "react-icons/ri";
@@ -34,14 +35,34 @@ export default function Contact() {
       </div>
       <div className="md:w-[50%] flex flex-col items-center justify-center space-y-10 ">
         <div className="w-[300px] md:w-[400px]">
-          <Image src="/logo.png" alt="" width={1620} height={312} />
+          <Link href="/">
+            <Image src="/logo.png" alt="" width={1620} height={312} />
+          </Link>
         </div>
         <div className="flex items-center flex-col space-y-2">
           <h3 className="text-4xl ">Lets Connect? </h3>
           <div className="flex items-center text-4xl space-x-4">
-            <ImFacebook className="hover:scale-125 duration-200 cursor-pointer" />
-            <ImTwitter className="hover:scale-125 duration-200 cursor-pointer" />
-            <RiInstagramFill className="hover:scale-125 duration-200 cursor-pointer" />
+            <a
+              href="https://www.facebook.com/creative0x"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImFacebook className="hover:scale-125 duration-200 cursor-pointer" />
+            </a>
+            <a
+              href="https://twitter.com/Creative0x1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImTwitter className="hover:scale-125 duration-200 cursor-pointer" />
+            </a>
+            <a
+              href="https://instagram.com/creative0x1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <RiInstagramFill className="hover:scale-125 duration-200 cursor-pointer" />
+            </a>
           </div>
         </div>
         <h5 className="pt-20">CREATIVE0X ALL RIGHTS RESERVED © 2022</h5>
