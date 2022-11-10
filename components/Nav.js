@@ -13,18 +13,24 @@ export default function Nav({ displayMenu, setDisplayMenu }) {
       </div>
       <ul className="flex items-center justify-center md:space-x-10 space-x-4 md:font-bold  text-xl tracking-wider uppercase ">
         <Link to="web" spy={true} smooth={true} offset={50} duration={500}>
-          <li className="hidden md:flex cursor-pointer">Web Portfolio</li>
+          <li className="hidden md:flex cursor-pointer duration-200 hover:scale-125">
+            Web Portfolio
+          </li>
         </Link>
         <Link to="film" spy={true} smooth={true} offset={50} duration={500}>
-          <li className="hidden md:flex cursor-pointer">Film Portfolio</li>
+          <li className="hidden md:flex cursor-pointer duration-200 hover:scale-125">
+            Film Portfolio
+          </li>
         </Link>
         <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-          <li className="hidden md:flex cursor-pointer">About</li>
+          <li className="hidden md:flex cursor-pointer duration-200 hover:scale-125">
+            About
+          </li>
         </Link>
 
         <li
           onClick={handleContactClick}
-          className=" cursor-pointer md:rounded-full border-2 px-2 py-1 md:px-4 md:py-2  "
+          className=" cursor-pointer md:rounded-full border-2 px-2 py-1 md:px-4 md:py-2 duration-500 hover:bg-white hover:text-black "
         >
           Contact Me
         </li>

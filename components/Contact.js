@@ -6,9 +6,13 @@ import { RiInstagramFill } from "react-icons/ri";
 
 export default function Contact() {
   return (
-    <section className="bg-[#0d0c0d]  w-full  flex md:flex-row flex-col items-center justify-center text-white px-4 md:px-20 py-20 space-y-20   ">
+    <section
+      id="about"
+      className="  bg-[#0d0c0d]  w-full  flex md:flex-row flex-col items-center justify-center text-white px-4 md:px-20 py-20 space-y-20   "
+    >
       <div className="md:w-[50%] flex flex-col space-y-5 items-center justify-center">
         <h3 className="font-bold text-6xl">About Me</h3>
+        <h4 className="font-light text-4xl">David Betancourt</h4>
         <p className="md:text-xl">
           I am an innovative and talented visual creator with a passion for web
           development, film production, motion design, and fitness. I gain my
