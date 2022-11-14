@@ -7,14 +7,21 @@
     color: whitesmoke;
     font-family: "Poppins", sans-serif;
     caret-color: transparent;
+    background-color: #171617;
   }
 
   @layer components {
+    .font-poppins {
+      font-family: "Poppins", sans-serif;
+    }
     .font-oswald {
       font-family: "Oswald", sans-serif;
     }
     .parallax {
       background-image: url("../public/bg.jpg");
+    }
+    .menuLink {
+      @apply w-full tracking-widest font-extralight text-xl md:text-lg text-center transition ease-in-out duration-300 hover:bg-[whitesmoke] hover:text-black hover:font-medium py-2 cursor-pointer;
     }
   }
 }
