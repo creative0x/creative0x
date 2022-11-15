@@ -67,7 +67,7 @@ export default function Menu({
     >
       <AiOutlineClose
         onClick={handleContactClick}
-        className="absolute flex md:hidden top-5 left-5  text-5xl rounded-full border border-black transition duration-200 hover:text-black hover:bg-[whitesmoke] cursor-pointer"
+        className="absolute flex md:hidden top-3 left-3  text-5xl rounded-full border border-black transition duration-200 hover:text-black hover:bg-[whitesmoke] cursor-pointer"
       />
       <h1 className="text-7xl font-extrabold tracking-tighter font-oswald">
         ABOUT ME
