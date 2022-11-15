@@ -61,8 +61,8 @@ export default function Menu({
     <div
       className={
         displayMenu
-          ? "absolute right-0  space-y-10 px-4 md:px-20 overflow-y-hidden   w-full md:w-[50%]  z-30 bg-[whitesmoke] text-[#171617]  ease-in-out duration-1000  flex flex-col items-center pt-10 pb-20"
-          : "fixed right-[-100%]  space-y-10 px-4 md:px-20  overflow-y-hidden w-full  md:w-[50%]  z-30 bg-[whitesmoke] text-[#171617]  ease-in-out duration-1000  flex flex-col items-center  pt-10 pb-20 "
+          ? "fixed right-0  space-y-10 px-4 md:px-20 overflow-y-scroll overflow-x-hidden  top-0 bottom-0 w-full md:w-[50%]  z-30 bg-[whitesmoke] text-[#171617]  ease-in-out duration-1000  flex flex-col items-center pt-10 pb-20"
+          : "fixed right-[-100%]  space-y-10 px-4 md:px-20 overflow-y-scroll overflow-x-hidden  top-0 bottom-0 w-full md:w-[50%]  z-30 bg-[whitesmoke] text-[#171617]  ease-in-out duration-1000  flex flex-col items-center pt-10 pb-20"
       }
     >
       <AiOutlineClose
