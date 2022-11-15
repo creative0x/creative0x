@@ -20,7 +20,7 @@ export default function Banner({ displayMenu, setDisplayMenu }) {
         className={
           splash
             ? "fixed  flex right-0 top-0 space-y-2  w-full  h-screen  z-30 bg-black  flex-col items-center justify-center ease-in-out duration-1000"
-            : "fixed  flex right-0 top-[-110%] space-y-2  h-screen w-full z-30 bg-black  flex-col items-center justify-center ease-in-out duration-1000"
+            : "fixed  flex right-0 top-[-115%] space-y-2  h-screen w-full z-30 bg-black  flex-col items-center justify-center ease-in-out duration-1000"
         }
       >
         <m.div
