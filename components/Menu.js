@@ -61,13 +61,13 @@ export default function Menu({
     <div
       className={
         displayMenu
-          ? "absolute right-0 top-0 space-y-10 px-4 md:px-20 overflow-y-hidden   w-full md:w-[50%]  z-30 bg-[whitesmoke] text-[#282828] ease-in-out duration-1000  flex flex-col items-center pt-10 pb-20"
+          ? "fixed right-0 top-0 space-y-10 px-4 md:px-20 overflow-y-hidden   w-full md:w-[50%]  z-30 bg-[whitesmoke] text-[#282828] ease-in-out duration-1000  flex flex-col items-center pt-10 pb-20"
           : "fixed right-[-100%]  top-0 space-y-10 px-4 md:px-20  overflow-y-hidden w-full  md:w-[50%]  z-30 bg-[whitesmoke] text-[#171617] ease-in-out duration-1000  flex flex-col items-center  pt-10 pb-20 "
       }
     >
       <AiOutlineClose
         onClick={handleContactClick}
-        className="absolute flex md:hidden top-10 left-10  text-5xl rounded-full border border-black transition duration-200 hover:text-black hover:bg-[whitesmoke] cursor-pointer"
+        className="absolute flex md:hidden top-5 left-5  text-5xl rounded-full border border-black transition duration-200 hover:text-black hover:bg-[whitesmoke] cursor-pointer"
       />
       <h1 className="text-7xl font-extrabold tracking-tighter font-oswald">
         ABOUT ME
